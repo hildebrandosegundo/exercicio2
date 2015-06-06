@@ -4,3 +4,4 @@ for i in (0..49) do
 end
 puts a.select(&:odd?)
 
+50.times.each{|i| puts i if i.odd?}
